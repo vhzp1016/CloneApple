@@ -1,0 +1,136 @@
+body {
+margin: 0;
+padding: 0;
+
+}
+
+.navigationBar {
+background-color: rgba(0, 0, 0, 0.8);
+height: 44px; 
+
+
+
+
+}
+
+.navigationlist {
+    display: flex;
+    color: #f1ebeb;
+    list-style: none;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-around;
+
+}
+
+.navigationlist a{
+    text-decoration: none;
+    color: #f1ebeb;
+    opacity: .8;
+    transition: 0.3s;
+}
+
+.box1 {
+   background-color:white;
+   height: 580px;
+   text-align: center;
+   padding-top: 63px;
+   background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_large_2x.jpg);
+   background-size: cover;
+   background-position: center;
+   
+}
+.H2 {
+    font-size: 56px;
+}
+.H3 {
+    font-size: 28px;
+}
+
+.iphoneImage {
+    width: 3010px;
+    height: 624px;
+    background-size: 3010 624px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone);
+}
+
+.link {
+    color: #06c;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Hevetica";
+}
+
+.links {
+    padding: 20px;
+    line-height: 20px;
+    text-align: center;
+    
+    
+}
+
+.multipleBoxes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.H2 {
+    font-size: 23px;
+	margin: 0;
+	padding: 20px;
+    text-align: center;
+    line-height: 10px;
+}
+
+.H3 {
+    color: #5A6169;
+	line-height: 20px;
+	font-size: 23px;
+	padding: 10px 20px 20px 20px;
+	margin: 0;
+    text-align: center;
+}
+
+.smallBox {
+    height: 543px;
+    background-color: white;
+    margin: 15px;
+    flex-basis: 0;
+    min-width: 700px;
+    flex-grow: 1;
+    text-align: center;
+    box-sizing: content-box;
+    border: solid #5B6DCD 10px;
+    
+}
+
+.boxWatch {
+    background-image: url(https://www.apple.com/v/home/aj/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_large_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    width: 45%;
+    height: 400px;
+    
+}
+
+.watchOrange {
+    background-image: url(https://www.apple.com/euro/home/x/screens_alt/images/promos/shot-on-iphone/tile_soip__f0c6lef982em_large_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    height: 400px;
+    width: 35%;
+}
+
+
+
+
+
